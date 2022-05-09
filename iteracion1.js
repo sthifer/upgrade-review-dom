@@ -83,7 +83,7 @@ document.body.appendChild(miBoton)
 let misListas = document.querySelectorAll('ul');
 let arrayListas = Array.from(misListas);
 
-arrayListas.forEach(function(elemento){
+arrayListas.forEach(function(elemento){ 
     let miBoton2 = document.createElement('button')
 
     miBoton2.onclick = function(){
