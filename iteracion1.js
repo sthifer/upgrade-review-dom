@@ -87,7 +87,6 @@ arrayListas.forEach(function(elemento){
     let miBoton2 = document.createElement('button')
 
     miBoton2.onclick = function(){
-        console.log('hola');
         let todosLi = elemento.querySelectorAll('li');
         let arrayLi = Array.from(todosLi);
         console.log(arrayLi);
